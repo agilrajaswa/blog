@@ -99,13 +99,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sql12787197',       # ganti dengan DB kamu
-        'USER': 'sql12787197',       # ganti dengan username DB kamu
-        'PASSWORD': ' a5rjTaw7hD',  # ganti (jangan bocorin ya!)
+        'NAME': 'sql12787197',
+        'USER': 'sql12787197',
+        'PASSWORD': 'a5rjTaw7hD',  # TANPA spasi
         'HOST': 'sql12.freesqldatabase.com',
         'PORT': '3306',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
