@@ -99,11 +99,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
+        'NAME': 'sql12787197',       # ganti dengan DB kamu
+        'USER': 'sql12787197',       # ganti dengan username DB kamu
+        'PASSWORD': ' a5rjTaw7hD',  # ganti (jangan bocorin ya!)
+        'HOST': 'sql12.freesqldatabase.com',
+        'PORT': '3306',
     }
 }
 
